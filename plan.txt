@@ -59,3 +59,15 @@ Step 4 – Evaluate what you have done
 •	What could you have done better? More efficiently? 
 •	What ideas were a waste of time (That couldn’t be seen at the time)
 •	What have you learned that will make V2 more efficient, better, more accurate, etc.
+
+
+design thinking.
+the idea was fantastic.
+we probably need better precision with the numbers to give a more accurate percentage per question.
+more questions to make the precision even better.
+ask even more questions.
+Expand the question so it's not just yes or no.
+use GUI to make it more user-friendly.
+could make a full app for it with HTML, CSS and java-script.
+will the buses run extra question.
+Use trusted data source so not CNN.
