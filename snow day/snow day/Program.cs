@@ -6,28 +6,14 @@ namespace snow_day
         static void Main(string[] args)
         {
             //variables 
-            double chance;
+            double chance = 0;
             string answer = "";
-
-            Console.WriteLine("is it snowing? yes/no");
-            answer = Console.ReadLine();
-            if (answer == "yes")
-            {
-                Console.WriteLine("it is a snow day");
-                chance = 100;
-            }
-
-            else
-            {
-                Console.WriteLine("no");
-                chance = 50;
-            }
 
             Console.WriteLine("what is the temperature");
             answer = Console.ReadLine();
             if (Convert.ToInt32(answer) <= 0)
             {
-                chance += 75 / 2;
+                chance += 40;
             }
             else
             {
@@ -38,12 +24,45 @@ namespace snow_day
             answer = Console.ReadLine();
             if (answer == "yes")
             {
-                chance += 75 / 1.5;
+                chance += 10;
             }
             else
             {
-                chance /= 1.5;
+                chance /= 2;
             }
+
+            Console.WriteLine("do you live near the ocean");
+            answer = Console.ReadLine();
+            if (answer == "yes")
+            {
+                chance /= 2;
+            }
+            else
+            {
+                chance += 20 ;
+            }
+
+            Console.WriteLine("do you live near the mountains");
+            answer = Console.ReadLine();
+            if (answer == "yes")
+            {
+                chance += 30 ;
+            }
+            else
+            {
+                chance /= 2;
+            }
+
+            Console.WriteLine("is it snowing? yes/no");
+            answer = Console.ReadLine();
+
+            if (answer == "yes")
+            {
+                Console.WriteLine("it is a snow day");
+                chance = 100;
+            }
+
+
 
             Console.WriteLine("chance of snow is " + chance + "%");
             Console.ReadLine();
