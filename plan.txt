@@ -1,0 +1,61 @@
+Problem Solving Worksheet
+
+You are to apply what we have learned about Polya’s Heuristic. Although success is highly desirable, it is more important that you can see that you will move forward in solving a problem more
+
+Step 1 – Do you understand the problem?
+Write down your understanding of what you need to do. 
+•	What is the actual problem
+•	What is the data
+•	Are there conditions, stipulations? 
+•	What is known, unknown?
+•	Break the problem into parts - can they be understood on their own? Can they be solved on their own?
+•	Explain it to me like I am 5
+•	Draw the problem. Rewrite the problem.
+
+
+Will there be a snow day or what are the chances of a snow day.
+Where do they live, up high or near sea level depends gives different chances of snow.
+If they live near the ocean even less chance of snow.
+If they live near the mountains much higher chance of snow.
+How cold it is, must be below freezing 0 degrees. 
+What qualifies for a snow day, does a bad frost or lots of sleet count.
+The weather the day before.
+There has to be moister for it to snow.
+
+
+
+ 
+Step 2 – Devise a plan
+•	What is the connection between what we know and don’t know? 
+•	Are there similar/related problems that we do know or can research that we can use?
+•	Look at the unknown – do other solutions (related or not) have the same problem domain? Can we use them?
+•	Devise a plan of attack. Decide how you will make a start.
+
+We don’t know how much snow a snow day is.
+We don’t know where they live.
+The chance of it snowing if its 0 degrees etc.
+Does bad sleet and frost count as a snow day.
+
+ 
+Step 3 – Implement your solution
+•	Describe your solution and how it works. 
+•	Prove you are solving the problem
+
+Ask the user a bunch of questions like, is it snowing, where do you live, what is the temperature, etc and every answer will have a percentage of snow and. Example if they live near the ocean the percentage of snow goes down
+
+Questions
+How cold is it that day(degrees).
+Where do you live?
+Near sea level or up high.
+Are you close to mountains or the ocean.
+
+
+
+
+
+
+
+Step 4 – Evaluate what you have done
+•	What could you have done better? More efficiently? 
+•	What ideas were a waste of time (That couldn’t be seen at the time)
+•	What have you learned that will make V2 more efficient, better, more accurate, etc.
